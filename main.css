@@ -319,7 +319,7 @@ button{
     margin: 21px;
     border: 1px solid #971723;
     padding: 18px;
-
+    
 }
 /* .award-logo-div{
     margin: 19px;
@@ -566,10 +566,26 @@ button .up-coming-learn-more-btn{
 
     /*  #################  for Footer list #############*/
     div .list-li{
-        /* display: inline; */
+        display: block;
         list-style-type: none;
-        vertical-align: middle;
+        
     }
-    
-
+    ul.ul-list.list-unstyled.list-inline {
+        display: block;
+    }
+    .list-left-border {
+        border-left: none;
+        padding-left: 25px;
+    }
+    .fotter-para {
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+        /* padding: 0px 230px; */
+        display: contents;
+    }
+    .fotter-para-div{
+        border-top: 2px solid #971723;
+        margin-bottom: 20px;
+    }
 }
