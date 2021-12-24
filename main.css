@@ -1,0 +1,575 @@
+/*  nav bar CSS  */
+.navbar{
+    background: #192A56;
+    width: 100%;
+}
+
+.bg-light{
+    background: #ffffff;
+}
+.top-navbar{
+    color: #ffffff;
+    width: 100%;
+    background: #192A56;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+/* .social-icon img{
+   background: #ffffff;
+  
+}
+.social-icon li{
+    background: #ffffff;
+    height: 23px;
+    width: 23px;
+ } */
+
+.navbar-bg{
+    background-color: #ffffff;
+}
+
+.background-banner{
+    width: 100%;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+/* .navbar-1{
+    padding-left: ;
+} */
+.social-icon {
+    background-color: #ffffff;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.social:last-child{
+    margin-right: 0px;
+}
+
+.social{
+    margin-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.became-volunteer{
+    font-size: 18px;
+}
+.social li a img{
+    height: 18px;
+   
+}
+.social  li a img{
+    text-align: center;
+}
+.menu-bar{
+    text-align: center;
+}
+/* ------------------------------ menu bar -------------------- */
+
+/* div .relative {
+    position: relative;
+} */
+
+div .absolute {
+    position: absolute;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #971723;
+    border-color: #971723;
+    margin-left: 8px;
+}
+div .HC4A-logo{
+    top: -40px;
+}
+div .service-learn{
+    position: absolute;
+    top: 85px; 
+    background: rgba(47, 47, 47, 0.6);
+    box-shadow: 0px 0px 15px 5px rgba(255, 211, 42, 0.4);
+    min-width: 764px;
+    z-index: 1;
+    padding: 0px 55px;
+}
+.service-learn p {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 34px 0px;
+}
+.service-heading{
+    padding-top: 55px;
+}
+
+.register-btn{
+    padding-bottom: 55px;
+} 
+.nav-item{
+    font-size: 12px;
+}
+
+/*  ----------------------- POMASONE ------------------ */ 
+.pamasone{
+   background-color: #ffffff;
+   justify-content: center;
+   text-align: center;
+}
+.button-1{
+    background-color: #253F7F;
+    height: 70px;
+    border: none;
+    padding: 15px 26px;
+    min-width: 80px;
+    font-weight: bold;
+}
+.button-2{
+    background-color: #971723;
+    height: 70px;
+    border: none;
+    padding: 15px 26px;
+    min-width: 80px;
+    font-weight: bold;
+}
+.button-3{
+    background-color: #718093;
+    height: 70px;
+    border: none;
+    padding: 15px 26px;
+    min-width: 80px;
+    font-weight: bold;
+}
+.pamasone p{
+    font-size: 20px;
+    padding: 45px 0px 15px 0px;
+    font-weight: bold;
+}
+.pamasone-button{
+    margin: 0px 0px 45px 0px;
+
+}
+button{
+    padding: 10px;
+}
+.btn{
+    margin: 16px;
+}
+/* ----------------------    about-section-1  ------ --- - - - - -    */
+
+.about-section{
+    background-color: #F1F1F1;
+    padding-bottom: 40px;
+}
+.about-heading{
+    color: #971723;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.about-para{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.school-img{
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.how-HC4A{
+    /* position: relative; */
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: -1px 2px 5px 2px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 692px;
+    left: 0px;
+    padding: 35px;
+    top: 33px;
+}
+.school-img img {
+    vertical-align: middle;
+    border-style: none;
+    width: 669px;
+    height: 557px;
+}
+
+            /*     ------------------  about-student-section-2 ------------------ */
+
+.about-student-section-1{
+    padding: inherit;
+}
+
+.about-student-section-2{
+    background-color: #253F7F;
+}
+
+.student-sub-sec-2 {
+    padding: 34px 58px 34px 58px;
+}
+
+.student-learn-more-btn{
+    margin-left: -13px;
+}
+
+/*     ------------------  about-student-section-sub-2 &&&&&&& about-student-section-sub-3  ------------------ */
+
+.about-student-section-sub-2{
+    background-color: #C4C4C4;
+    text-align: center;
+    justify-content: center;
+}
+.hands-logo{
+    width: 68%;
+}
+.about-student-section-sub-1{
+    padding: 34px 58px 34px 58px;
+}
+
+.about-student-section-2{
+    background-color: #253F7F;
+}
+
+/* ------------------ New Artical Section  ------------------ */
+
+.cards{
+    padding: 2px;
+}
+
+.news-artical{
+    color: #253F7F;
+    padding-top: 35px;
+}
+.news-artical-para{
+    font-weight: bold;
+}
+
+.card{
+    background: #F1F1F1;
+}
+
+.learn-more-card-btn a{
+    background: #253F7F;
+}
+
+.card-para {
+    padding-top: 12px;
+    border-top-style: solid;
+    border-top-color: #FFA801;
+  }
+
+.card-title {
+    margin-bottom: 0.75rem;
+    padding-bottom: 17px;
+}
+.student-view-more-btn{
+    text-align: center;
+}
+
+/*  ================       scollarship-Donation =============  */
+
+.scollarship-background{
+    background: url("./logos/Rectangle\ 24.png");
+    width: 100%;
+    position: relative;
+}
+/* .scollarship-div{
+    background: url("./logos/Rectangle\ 24.png");
+    width: 100%;
+    height: 100%;
+} */
+
+.scollar-ship-donate-btn{
+    background-color: #487EB0;
+    border: none;
+    padding: 13px 45px;
+}
+
+.scollar-ship-donate-btn-div{
+    padding-bottom: 40px;
+}
+.scollarship-head{
+    padding-top: 54px;
+}
+.scollarship-para{
+    padding-top: 20px;
+}
+
+/*  ================       award-section     =============  */
+.award-head{
+    color: #971723;
+}
+/* .award-main-card{
+    width: 50px;
+} */
+
+.president-award{
+    width: 100%;
+}
+.award-logo{
+    margin: 21px;
+    border: 1px solid #971723;
+    padding: 18px;
+
+}
+/* .award-logo-div{
+    margin: 19px;
+} */
+.card-background{
+    background: #C4C4C4;
+    padding: 16px;
+}
+
+.border-dark {
+    border-color: #343a40!important;
+    padding: 17px
+}
+
+.card-inner{
+    padding: 1px 0px;
+}
+
+/* .sub-award-border {
+    border: 1px solid #971723;
+    height: 195px;
+    padding-top: 12px;
+    width: 204px;
+} */
+.award-section-2{
+    margin-bottom: 2px;
+}
+.award-section-1{
+    padding-bottom: 33px;
+    padding-top: 93px;
+}
+.student-view-all-awards-btn{
+    text-align: center;
+    margin-top: 38px;
+}
+.award-head-div{
+    margin: 57px 0px;
+}
+
+
+
+/*       //*******//*/                UP Coming Event             */
+
+.Up-Coming-event-main-div{
+    background: #F1F1F1;
+}
+.Up-Coming-event{
+    margin-top: 52px;
+    color: #971723;
+    padding-top: 49px;
+}
+.Up-Coming-event-para{
+    font-weight: bold;
+}
+.event-card{
+    border-radius: 22px;
+}
+.event-para{
+    margin: 25px 0px;
+}
+.event-time {
+    height: 56px;
+    background: rgba(0, 0, 0, 0.71);
+    position: relative;
+    margin-top: -57px;
+    font-size: bold;
+    font-weight: bold;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 19px;
+    padding-left: 30px;
+}
+button .up-coming-learn-more-btn{
+    color: #253F7F;
+}
+.event-view-more-btn{
+    text-align: center;
+    padding: 36px 0px;
+}
+.online-card-btn{
+    position: absolute;
+    top: 0px;
+    margin-left: 22px;
+    background: #971723;
+    border: none;
+}
+/*******       FOOTER    ******/
+.footer{
+    background:#C4C4C4;
+}
+.footer-img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.list-li{
+    font-weight: bold;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.list-left-border{
+    border-left: 1px solid #971723;
+    padding-left: 25px;
+}
+.list-left-border:first-child{
+    border-left: none;
+}
+.fotter-para{
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px 230px;
+}
+.ul-list{
+    display: flex;
+    align-items: stretch;
+}
+.fotter-para-div{
+    border-top: 2px solid #971723;
+    justify-content: center;
+}
+
+
+
+/*        ####### Custom CSS Media quary ######## */
+
+ @media only screen and (max-width: 776px){
+     /*     for banner    */
+    div .service-learn {
+        position: absolute;
+        top: 34px;
+        background: rgba(47, 47, 47, 0.6);
+        box-shadow: 0px 0px 15px 5px rgb(255 211 42 / 40%);
+        z-index: 1;
+        padding: 0px 5px;
+        min-width: 100%;
+        left: 0;
+        right: 0;
+        padding: 0px 47px;
+    }
+    .service-learn p {
+        font-weight: normal;
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+    .service-heading{
+        padding-top: 15px;
+    }
+    .register-btn{
+        padding-bottom: 15px;
+    } 
+
+    /*   for about HC4A */
+
+    .how-HC4A {
+        /* position: relative; */
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
+        z-index: 1; 
+        width: auto;
+        left: 0px;
+        right: 0px;
+        padding: 27px;
+        top: 70px;
+    }
+    .school-img img {
+        vertical-align: middle;
+        border-style: none;
+        width: 100%;
+        height: 557px;
+    }
+    /*    #######    for Award ####### */
+    .award-section-1 {
+        padding-bottom: 33px;
+        padding-top: 28px;
+    }
+} 
+
+/*    #################  for small devices responsive ########### */
+
+@media only screen and (max-width: 576px){
+     /*     for banner    */
+     div .service-learn{
+        position: absolute; 
+        top: 2px;
+        background: rgba(47, 47, 47, 0.6);
+        box-shadow: 0px 0px 15px 5px rgb(255 211 42 / 40%);
+        z-index: 1;
+        padding: 0px 5px;
+        min-width: 100%;
+        left: 0;
+        right: 0;
+        padding: 0px 47px;
+    }
+    .service-learn p {
+        font-weight: normal;
+        font-size: 12px;
+        padding: 0px 0px;
+        display: flex;
+    }
+    .service-heading{
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .register-btn{
+        padding-bottom: 0px;
+    } 
+
+     /*   for about HC4A */
+
+     .how-HC4A {
+        /* position: relative; */
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
+        z-index: 1; 
+        width: auto;
+        left: 0px;
+        right: 0px;
+        padding: 27px;
+        top: 70px;
+    }
+    .school-img img {
+        vertical-align: middle;
+        border-style: none;
+        width: 100%;
+        height: 557px;
+    }
+
+    .about-para{
+        font-size: 18px;
+    }
+
+    /*  ################## For Award Section ########### */
+    .award-section-1 {
+        padding-bottom: 33px;
+        padding-top: 46px;
+        left: 12px;
+    }
+    .award-logo-div{
+        margin: 0px 2px 0px 2px;
+        width: 0%;
+    }
+
+    /*  #################  for Footer list #############*/
+    div .list-li{
+        /* display: inline; */
+        list-style-type: none;
+        vertical-align: middle;
+    }
+    
+
+}
