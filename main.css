@@ -111,9 +111,9 @@ div .service-learn{
     padding-top: 55px;
 }
 
-.register-btn{
+/* .register-btn{
     padding-bottom: 55px;
-} 
+}  */
 .nav-item{
     font-size: 12px;
 }
@@ -228,8 +228,9 @@ button{
     text-align: center;
     justify-content: center;
 }
-.hands-logo{
-    width: 68%;
+.hands-logo {
+    width: 100%;
+    padding-top: 22px;
 }
 .about-student-section-sub-1{
     padding: 34px 58px 34px 58px;
@@ -319,7 +320,8 @@ button{
     margin: 21px;
     border: 1px solid #971723;
     padding: 18px;
-    
+    max-width: 166px;
+    min-width: 122px;
 }
 /* .award-logo-div{
     margin: 19px;
@@ -501,10 +503,10 @@ button .up-coming-learn-more-btn{
 
 /*    #################  for small devices responsive ########### */
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) and (max-width: 320px){
      /*     for banner    */
-     div .service-learn{
-        position: absolute; 
+     div .service-learn {
+        position: absolute;
         top: 2px;
         background: rgba(47, 47, 47, 0.6);
         box-shadow: 0px 0px 15px 5px rgb(255 211 42 / 40%);
@@ -513,11 +515,15 @@ button .up-coming-learn-more-btn{
         min-width: 100%;
         left: 0;
         right: 0;
-        padding: 0px 47px;
+        padding: 0px 11px;
+    }
+    .background-banner {
+        width: 100%;
+        height: 198px;
     }
     .service-learn p {
         font-weight: normal;
-        font-size: 12px;
+        font-size: 11px;
         padding: 0px 0px;
         display: flex;
     }
@@ -525,9 +531,10 @@ button .up-coming-learn-more-btn{
         padding-top: 10px;
         font-size: 17px;
     }
-    .register-btn{
-        padding-bottom: 0px;
-    } 
+    .register-btn {
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
 
      /*   for about HC4A */
 
@@ -535,12 +542,12 @@ button .up-coming-learn-more-btn{
         /* position: relative; */
         background: rgba(255, 255, 255, 0.6);
         box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
-        z-index: 1; 
+        z-index: 1;
         width: auto;
         left: 0px;
         right: 0px;
-        padding: 27px;
-        top: 70px;
+        padding: 14px;
+        top: 0px;
     }
     .school-img img {
         vertical-align: middle;
@@ -559,12 +566,13 @@ button .up-coming-learn-more-btn{
         padding-top: 46px;
         left: 12px;
     }
-    .award-logo-div{
-        margin: 0px 2px 0px 2px;
-        width: 0%;
-    }
+    
 
     /*  #################  for Footer list #############*/
+    .footer-img {
+        padding-top: 31px;
+        padding-bottom: 31px;
+    }
     div .list-li{
         display: block;
         list-style-type: none;
@@ -588,4 +596,21 @@ button .up-coming-learn-more-btn{
         border-top: 2px solid #971723;
         margin-bottom: 20px;
     }
+    /*   ########## hand logo in  Section 3 About Student  ########## */
+    .hands-logo {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    /*   ################# pamasone ######## */
+    .pamasone p {
+        font-size: 16px;
+        padding: 24px 0px 15px 0px;
+        font-weight: bold;
+    }
+    /* ################### Banner-section #### */
+    .register-btn{
+        padding-bottom: 0px;
+        font-size: 12px;
+    } 
 }
