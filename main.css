@@ -438,6 +438,7 @@ button .up-coming-learn-more-btn{
 }
 .ul-list{
     display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
 }
 .fotter-para-div{
@@ -562,9 +563,13 @@ button .up-coming-learn-more-btn{
 
     /*  ################## For Award Section ########### */
     .award-section-1 {
-        padding-bottom: 33px;
-        padding-top: 46px;
+        padding-bottom: 0px;
+        padding-top: 17px;
         left: 12px;
+    }
+    .student-view-all-awards-btn {
+        text-align: center;
+        margin-top: 13px;
     }
     
 
@@ -609,7 +614,7 @@ button .up-coming-learn-more-btn{
         font-weight: bold;
     }
     .pamasone-button {
-        margin: -13px 0px 26px 0px;
+        margin: -30px 0px 0px 0px;
     }
     /* ################### Banner-section #### */
     .register-btn{
@@ -618,8 +623,105 @@ button .up-coming-learn-more-btn{
     } 
     /* ##############  ABOUT SECTION for student  ####### */
 
-    .student-sub-sec-1 , .student-sub-sec-2, .student-sub-sec-3 {
-        padding: 20px 32px 34px 32px;
+    .student-sub-sec-1, .student-sub-sec-2, .student-sub-sec-3 {
+        padding: 20px 13px 34px 19px;
+    }
+    /*      for 2nd parahraph       */ 
+    .about-student-section-sub-1 {
+        padding: 20px 5px 34px 5px;
+    }
+
+    /*      scollarship-head     */
+    .scollar-ship-donate-btn-div {
+        padding-bottom: 0px;
+    }
+    .scollarship-head {
+        padding-top: 44px;
+    }
+    /*       for event    */
+    .event-para {
+        margin: 8px 0px;
+    }
+    .event-view-more-btn {
+        text-align: center;
+        padding: 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 411px){
+    .fotter-para {
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+        padding: 0px 151px;
+        /* flex-wrap: wrap; */
+    }
+
+    .list-left-border {
+        border-left: none;
+        padding-left: 7px;
+        flex-wrap: wrap;
+    }
+    .list-left-border {
+        border-left: none;
+        padding-left: 15px;
+    }
+
+    .how-HC4A {
+        /* position: relative; */
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
+        z-index: 1;
+        width: auto;
+        left: 0px;
+        right: 0px;
+        padding: 27px;
+        top: 22px;
     }
     
+}
+@media only screen and (max-width: 414px){
+    .fotter-para {
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+        padding: 0px 142px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .fotter-para {
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+        padding: 0px 142px;
+    }
+}
+
+@media only screen and (max-width: 2560px){
+    .hands-logo {
+        width: 100%;
+        padding-top: 22px;
+        max-width: 57%;
+    }
+}
+
+@media (max-width: 360px){
+    .how-HC4A {
+        /* position: relative; */
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
+        z-index: 1;
+        width: auto;
+        height: 558px;
+        left: 0px;
+        right: 0px;
+        padding: 27px;
+        top: 0px;
+    }
+
+    .scollar-ship-donate-btn-div {
+        padding-bottom: 26px;
+    }
 }
